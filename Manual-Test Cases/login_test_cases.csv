@@ -1,5 +1,0 @@
-Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status
-TC001,Valid login with correct username and password.,Enter valid username and password, click on login.,User is logged in successfully and redirected to the dashboard.,, 
-TC002,Invalid login with incorrect username.,Enter invalid username and correct password, click on login.,Error message displayed "Invalid username".,, 
-TC003,Invalid login with incorrect password.,Enter valid username and incorrect password, click on login.,Error message displayed "Incorrect password".,, 
-TC004,Login with empty username or password.,Leave username or password empty, click on login.,Error message displayed "Username or password cannot be empty".,, 
