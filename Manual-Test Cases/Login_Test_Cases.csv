@@ -1,0 +1,21 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Remarks
+TC01,Valid login with correct username and password,"1. Navigate to https://www.saucedemo.com/
+2. Enter valid username: 'standard_user'
+3. Enter valid password: 'secret_sauce'
+4. Click on login button",User should be logged in and redirected to the products page,,,
+TC02,Invalid login with incorrect username,"1. Navigate to https://www.saucedemo.com/
+2. Enter invalid username: 'incorrect_user'
+3. Enter valid password: 'secret_sauce'
+4. Click on login button",Error message should be displayed indicating invalid username,,,
+TC03,Invalid login with incorrect password,"1. Navigate to https://www.saucedemo.com/
+2. Enter valid username: 'standard_user'
+3. Enter invalid password: 'wrong_password'
+4. Click on login button",Error message should be displayed indicating incorrect password,,,
+TC04,Login with empty username or password,"1. Navigate to https://www.saucedemo.com/
+2. Leave username field empty
+3. Enter valid password: 'secret_sauce'
+4. Click on login button",Error message should be displayed indicating that username is required,,,
+TC05,Login with empty username or password,"1. Navigate to https://www.saucedemo.com/
+2. Enter valid username: 'standard_user'
+3. Leave password field empty
+4. Click on login button",Error message should be displayed indicating that password is required,,,
