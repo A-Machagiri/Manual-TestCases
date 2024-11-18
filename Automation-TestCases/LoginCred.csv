@@ -1,0 +1,5 @@
+Test Case ID,Description,Test Steps,Expected Result
+TC001,Test login with valid username and password.,Navigate to https://www.saucedemo.com/, enter 'standard_user' and 'secret_sauce', click login.,User should be logged in and redirected to the products page.
+TC002,Test login with an incorrect username.,Navigate to https://www.saucedemo.com/, enter 'incorrect_user' and 'secret_sauce', click login.,User should see an error message indicating invalid login credentials.
+TC003,Test login with a correct username but incorrect password.,Navigate to https://www.saucedemo.com/, enter 'standard_user' and 'wrong_password', click login.,User should see an error message indicating invalid login credentials.
+TC004,Test login with empty username or password fields.,Navigate to https://www.saucedemo.com/, leave the username or password field empty, click login.,User should see an error message indicating that username or password cannot be empty.
