@@ -1,0 +1,7 @@
+Test Case ID, Test Case Description, Test Steps, Expected Result, Actual Result, Status, Remarks
+TC01, Valid login with correct username and password, 1. Open the login page. 2. Enter Username: 'standard_user'. 3. Enter Password: 'secret_sauce'. 4. Click on the login button., User should be logged in successfully and directed to the homepage., , ,
+TC02, Invalid login with incorrect username, 1. Open the login page. 2. Enter Username: 'incorrect_user'. 3. Enter Password: 'secret_sauce'. 4. Click on the login button., User should see an error message indicating incorrect username., , ,
+TC03, Invalid login with incorrect password, 1. Open the login page. 2. Enter Username: 'standard_user'. 3. Enter Password: 'wrong_password'. 4. Click on the login button., User should see an error message indicating incorrect password., , ,
+TC04, Login with empty username, 1. Open the login page. 2. Leave the username field empty. 3. Enter Password: 'secret_sauce'. 4. Click on the login button., User should see an error message indicating that the username cannot be empty., , ,
+TC05, Login with empty password, 1. Open the login page. 2. Enter Username: 'standard_user'. 3. Leave the password field empty. 4. Click on the login button., User should see an error message indicating that the password cannot be empty., , ,
+TC06, Login attempt with a locked-out user, 1. Open the login page. 2. Enter Username: 'locked_out_user'. 3. Enter Password: 'secret_sauce'. 4. Click on the login button., User should see an error message indicating the account is locked., , ,
