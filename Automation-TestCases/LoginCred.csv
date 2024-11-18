@@ -1,0 +1,21 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Remarks
+TC001,Test the login functionality with a valid username and password.,1. Open the login page of the application.
+2. Enter Username: standard_user
+3. Enter Password: secret_sauce
+4. Click on the login button.,User should be successfully logged in and redirected to the homepage.,[To be filled after testing],[Pass/Fail],[Any additional notes]
+TC002,Test the login functionality with an incorrect username.,1. Open the login page of the application.
+2. Enter Username: incorrect_user
+3. Enter Password: secret_sauce
+4. Click on the login button.,User should receive an error message indicating incorrect username.,[To be filled after testing],[Pass/Fail],[Any additional notes]
+TC003,Test the login functionality with an incorrect password.,1. Open the login page of the application.
+2. Enter Username: standard_user
+3. Enter Password: wrong_password
+4. Click on the login button.,User should receive an error message indicating incorrect password.,[To be filled after testing],[Pass/Fail],[Any additional notes]
+TC004,Test the login functionality with an empty username field.,1. Open the login page of the application.
+2. Leave the Username field empty.
+3. Enter Password: secret_sauce
+4. Click on the login button.,User should receive an error message indicating that the username field is required.,[To be filled after testing],[Pass/Fail],[Any additional notes]
+TC005,Test the login functionality with an empty password field.,1. Open the login page of the application.
+2. Enter Username: standard_user
+3. Leave the Password field empty.
+4. Click on the login button.,User should receive an error message indicating that the password field is required.,[To be filled after testing],[Pass/Fail],[Any additional notes]
