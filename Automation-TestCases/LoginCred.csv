@@ -1,0 +1,5 @@
+Test Case ID,Description,Test Steps,Expected Result
+TC001,Verify login with valid credentials,Navigate to the site, enter 'standard_user' and 'secret_sauce', click login.,User is logged in and redirected to the products page.
+TC002,Verify login with invalid username,Navigate to the site, enter 'incorrect_user' and 'secret_sauce', click login.,User is not logged in; an error message is displayed.
+TC003,Verify login with invalid password,Navigate to the site, enter 'standard_user' and 'wrong_password', click login.,User is not logged in; an error message is displayed.
+TC004,Verify login with empty credentials,Navigate to the site, leave username and password empty, click login.,User is not logged in; an error message indicating that username and password are required is displayed.
