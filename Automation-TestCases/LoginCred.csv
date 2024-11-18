@@ -1,0 +1,6 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result
+TC01,Valid login with correct username and password.,Navigate to https://www.saucedemo.com/, enter username 'standard_user', enter password 'secret_sauce', click login button,User is logged in and redirected to the products page.
+TC02,Invalid login with incorrect username.,Navigate to https://www.saucedemo.com/, enter username 'incorrect_user', enter password 'secret_sauce', click login button,User is not logged in; error message 'Username and password do not match' is displayed.
+TC03,Invalid login with incorrect password.,Navigate to https://www.saucedemo.com/, enter username 'standard_user', enter password 'wrong_password', click login button,User is not logged in; error message 'Username and password do not match' is displayed.
+TC04,Login with empty username.,Navigate to https://www.saucedemo.com/, leave the username field empty, enter password 'secret_sauce', click login button,User is not logged in; error message 'Username is required' is displayed.
+TC05,Login with empty password.,Navigate to https://www.saucedemo.com/, enter username 'standard_user', leave the password field empty, click login button,User is not logged in; error message 'Password is required' is displayed.
